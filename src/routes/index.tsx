@@ -17,10 +17,15 @@ const Routes: React.FC = () => {
       <Tab.Navigator
         tabBarOptions={{
           style: {
-            backgroundColor: '#000',
+            backgroundColor: 'transparent',
             borderTopColor: 'rgba(255,255,255,0.3)',
+            position: 'absolute',
+            left: 0,
+            bottom: 0,
+            right: 0,
           },
           activeTintColor: '#fff',
+          inactiveTintColor: '#eee',
         }}
       >
         <Tab.Screen
